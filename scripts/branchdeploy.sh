@@ -15,7 +15,7 @@ RESET='\033[0m'
 # argument is the netlify base url
 
 releaseVersion=$(git rev-parse --abbrev-ref HEAD | sed 's/.*\///')
-
+echo "update on release v1.0"
 echo "branchdeploy => '$releaseVersion'"
 echo "REPO => '$1'"
 echo "BRANCH => '$2'"
