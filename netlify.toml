@@ -1,0 +1,4 @@
+[build]
+  base = "/"
+  command = "./scripts/branchdeploy.sh $DEPLOY_PRIME_URL $REPOSITORY_URL $BRANCH $HEAD"
+face
